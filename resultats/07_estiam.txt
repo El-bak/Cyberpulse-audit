@@ -1,0 +1,45 @@
+# Nmap 7.99 scan initiated Sun Apr 12 21:48:19 2026 as: nmap -sV -oN resultats\\07_estiam.txt estiam.com
+Nmap scan report for estiam.com (3.33.251.168)
+Host is up (0.0072s latency).
+Other addresses for estiam.com (not scanned): 15.197.225.128
+rDNS record for 3.33.251.168: aec037177372cc6cd.awsglobalaccelerator.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     AWS Elastic Load Balancing
+443/tcp open  ssl/http Golang net/http server
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=4/12%Time=69DBF715%P=i686-pc-windows-win
+SF:dows%r(GetRequest,BD,"HTTP/1\.0\x20422\x20Unprocessable\x20Entity\r\nCo
+SF:ntent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\
+SF:x20nosniff\r\nDate:\x20Sun,\x2012\x20Apr\x202026\x2019:48:36\x20GMT\r\n
+SF:Content-Length:\x2021\r\n\r\nUnprocessable\x20Entity\n")%r(HTTPOptions,
+SF:CB,"HTTP/1\.0\x20405\x20Method\x20Not\x20Allowed\r\nAllow:\x20GET,\x20H
+SF:EAD\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-
+SF:Options:\x20nosniff\r\nDate:\x20Sun,\x2012\x20Apr\x202026\x2019:48:36\x
+SF:20GMT\r\nContent-Length:\x2019\r\n\r\nMethod\x20Not\x20Allowed\n")%r(Fo
+SF:urOhFourRequest,BD,"HTTP/1\.0\x20422\x20Unprocessable\x20Entity\r\nCont
+SF:ent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\x2
+SF:0nosniff\r\nDate:\x20Sun,\x2012\x20Apr\x202026\x2019:48:36\x20GMT\r\nCo
+SF:ntent-Length:\x2021\r\n\r\nUnprocessable\x20Entity\n")%r(GenericLines,6
+SF:7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x
+SF:20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%
+SF:r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x
+SF:20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Ba
+SF:d\x20Request")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent
+SF:-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n4
+SF:00\x20Bad\x20Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\
+SF:x20close\r\n\r\n400\x20Bad\x20Request")%r(LPDString,67,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\
+SF:nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(SIPOptions,67,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(So
+SF:cks5,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/pl
+SF:ain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Requ
+SF:est")%r(OfficeScan,A3,"HTTP/1\.1\x20400\x20Bad\x20Request:\x20missing\x
+SF:20required\x20Host\x20header\r\nContent-Type:\x20text/plain;\x20charset
+SF:=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request:\x20missing
+SF:\x20required\x20Host\x20header");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 12 21:49:04 2026 -- 1 IP address (1 host up) scanned in 45.21 seconds
