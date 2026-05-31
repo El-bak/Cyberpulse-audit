@@ -1,0 +1,2 @@
+# Nmap 7.99 scan initiated Sun May 31 13:47:15 2026 as: nmap -sV -sC -oN resultats\\10_vulnweb_scripts.txt testphp.vulnweb.com
+# Nmap done at Sun May 31 13:47:21 2026 -- 1 IP address (0 hosts up) scanned in 5.73 seconds
